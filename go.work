@@ -1,0 +1,10 @@
+go 1.19
+
+use (
+	// The 'use' directive tells Go that the modules in the listed
+	// directories should be considered when searching for modules in a
+	// GOWORK=on context.
+	./app
+	./my_box
+	./my_unpub
+)
