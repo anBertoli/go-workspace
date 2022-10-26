@@ -9,6 +9,11 @@ concepts and they **do not** necessarily have to be coupled, although they might
 For a more general and throughout discussion about Go modules have a look at the references at the 
 end of this document. 
 
+There are also offical docs and tutorials about workspaces, but I tried to condense and enrich them
+in the present document:
+- https://go.dev/blog/get-familiar-with-workspaces
+- https://go.dev/doc/tutorial/workspaces
+
 ## Go workspaces
 
 Go 1.18 adds workspace mode to Go, which lets you work on multiple modules simultaneously. With
@@ -239,6 +244,9 @@ CMD ["./app_bin"]
 ```
 
 ## References
+- Offical docs and tutorials about workspaces (some are basic):
+  - https://go.dev/blog/get-familiar-with-workspaces
+  - https://go.dev/doc/tutorial/workspaces
 - More general and throughout discussion about Go modules: 
   - https://go.dev/doc/modules/managing-dependencies 
   - https://go.dev/doc/#developing-modules
